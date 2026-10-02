@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cairo Regular */
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/Cairo-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* Cairo Bold */
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/Cairo-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* Cairo ExtraBold */
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/Cairo-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+/* Apply Cairo globally */
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
